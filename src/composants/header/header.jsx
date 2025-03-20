@@ -60,7 +60,7 @@ export default function header() {
             className=" LoginConnexion d-flex align-items-center justify-content-center"
             
           >
-            Connexion
+            Connexionkoko
           </button>
         </div>
       </div>
