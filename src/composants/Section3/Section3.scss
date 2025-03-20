@@ -1,0 +1,67 @@
+
+.Section3{
+    background-color: white;
+    margin: 4cm 0cm;
+    ;
+    
+}
+    .Button{
+        display: flex;
+        align-items: center;
+        gap: 0.5cm;
+        p{
+            margin-top: 0.2cm;
+        }
+        h3{
+                width: 60vh;
+        }
+    }
+    .NavSect3{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 7cm;
+    
+    
+    }
+
+    .Section3Footer{
+        gap :18cm
+    }
+    
+   
+
+
+
+    //Media Queries
+
+    @media screen and ( min-width: 992px) and (max-width :1200px){
+        .Section3{
+            gap: 3cm
+
+
+
+        }
+        .NavSect3{
+            display: flex ;
+            justify-content: space-around;
+            align-items: center;
+            gap: 2cm;
+
+
+
+
+
+            .Button h3 {
+                width: 100vh;
+            }
+        }
+
+
+
+
+
+        .Section3Footer{
+            gap: 8cm;
+        }
+    }

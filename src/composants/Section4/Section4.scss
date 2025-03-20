@@ -1,0 +1,26 @@
+.Section4{
+   
+    margin-top: 2cm;
+
+    h1{
+        width: 7.5cm;
+        font-size: 21px;
+        text-align: end;
+    }
+
+
+
+    .BodySect4{
+
+
+        :nth-child(2){
+
+            p{
+                text-align: center;
+                font-size: 21px;
+                /* align-items: center; */
+                width: 100vh;
+            }
+        }
+    }
+}

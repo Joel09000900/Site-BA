@@ -1,0 +1,77 @@
+.section2 {
+
+    
+
+
+
+.NavSect2{
+    width: 100%;
+    margin-bottom: 0.5cm;
+    display: flex;
+    height: 1cm;
+    justify-content: space-between;
+
+
+    
+}
+.CardSect2{
+  
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    border-radius: 5cm 1cm 1cm 5cm;
+
+
+    h1{
+        font-size: 26px;
+    }
+
+    p{
+        font-weight: 300;
+    }
+}
+
+.Card2Sect2{
+    width: 40%;
+    
+    margin-left: 3cm;
+
+    h1{
+        width: 23rem;
+    font-size: 2rem;
+    }
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and ( min-width: 992px) and (max-width :1200px){
+
+    .Section2{
+    
+    
+        .NavSect2{
+    
+            .button{
+                font-size: 11px;
+                 
+            
+        }
+    
+    }
+
+
+    .CardSect2 h1 {
+        font-size: 18px;
+    }
+}
+}
+ 

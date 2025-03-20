@@ -1,0 +1,120 @@
+.headerImage {
+  position: relative;
+  bottom: 52px;
+}
+.headerImage img {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  color: white;
+  background: black;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 1cm;
+  font-size: 13px;
+  position: relative;
+  top: 5px;
+}
+.nav ul li {
+  list-style: none;
+}
+.nav ul li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+.nav h2 {
+  font-size: 2em;
+  font-weight: bold;
+  font-size: 21px;
+  margin-bottom: 16px;
+  position: relative;
+  top: 5px;
+}
+.nav .btn {
+  width: 10cm;
+  gap: 0.5cm;
+}
+.nav .btn .seachIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0.8cm;
+  width: 0.8cm;
+  border-radius: 66px;
+}
+.nav .btn .seachIcon :hover {
+  color: black;
+}
+.nav .LoginConnexion {
+  background-Color: black;
+  color: white;
+  width: 4cm;
+  height: 1cm;
+  border-radius: 66px;
+  border: solid 3px white;
+}
+
+.QueryHeaderSect1 h1 {
+  width: 17cm;
+  color: black;
+  margin-right: 8cm;
+}
+
+.QueryHeaderSect2 h4 {
+  width: "11cm";
+  text-align: "center";
+}
+
+section img {
+  border-style: solid;
+  border-radius: 66px;
+  list-style: none;
+  gap: 0;
+  border-style: solid;
+  border-radius: 66px;
+  height: 1.5cm;
+  width: 1.5cm;
+  border: none;
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 1cm;
+    font-size: 9px;
+    position: relative;
+    top: 5px;
+    align-items: center;
+  }
+  .QueryHeader {
+    gap: 0cm;
+  }
+  .QueryHeader .QueryHeaderSect1 {
+    font-size: 20px;
+    width: 26rem;
+  }
+  .QueryHeader .QueryHeaderSect1 h1 {
+    width: 7cm;
+    color: black;
+    font-size: 24px;
+    margin-right: 6cm;
+  }
+  .QueryHeader .QueryHeaderSect2 h4 {
+    width: 9cm;
+    text-align: center;
+    font-size: 17px;
+  }
+}/*# sourceMappingURL=header.css.map */

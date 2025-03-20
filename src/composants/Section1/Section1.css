@@ -1,0 +1,62 @@
+.imgSect1 img {
+  border-radius: 1cm;
+  width: 10cm;
+  height: 10cm;
+  position: relative;
+  top: 56px;
+}
+.imgSect1 .imgSect1Button {
+  left: 1cm;
+  position: relative;
+  top: -7cm;
+}
+.imgSect1 .DD {
+  position: relative;
+  bottom: 3cm;
+  color: white;
+  width: 10cm;
+  font-size: 17px;
+}
+
+.mira {
+  right: 7cm;
+  position: relative;
+  top: 7cm;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .QuerySection1 {
+    margin-left: 20px;
+  }
+  .QuerySection1 h3 {
+    font-size: large;
+    width: 100vh;
+  }
+  .QuerySection1 .Button {
+    width: 4cm;
+    height: 1cm;
+  }
+  .imgSect1 .imgSect1Button {
+    left: 0.3cm;
+    position: relative;
+    top: -6cm;
+  }
+  .imgSect1 img {
+    border-radius: 1cm;
+    width: 8cm;
+    height: 8cm;
+    position: relative;
+    top: 56px;
+  }
+  .imgSect1 .DD {
+    position: relative;
+    bottom: 2cm;
+    color: white;
+    width: 8cm;
+    font-size: 17px;
+  }
+  .imgSect1 .DD button {
+    height: 1cm;
+    width: 1cm;
+  }
+}/*# sourceMappingURL=Section1.css.map */

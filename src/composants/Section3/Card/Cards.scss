@@ -1,0 +1,24 @@
+
+h6{
+    position: relative;
+    top: -8cm;
+    width: 4cm;
+    color: white;
+    left: 2.6cm;
+    text-align: center;
+    padding: 0cm 0.5cm;
+    border: solid;
+    border-radius: 1cm
+}
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    h6{
+       
+        position: relative;
+        
+        width: max-content;
+        left: 1.4cm;
+    }
+}
